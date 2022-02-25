@@ -103,4 +103,5 @@ load_pattern_loop:
     RET
 
 .end
+    HALT
     JMP end
