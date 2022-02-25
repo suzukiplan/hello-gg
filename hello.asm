@@ -27,6 +27,11 @@ text:
     DB "W", $00, "O", $00, "R", $00, "L", $00, "D", $00, "!", $00
 
 .init_vdp
+    ; 温まるのを待つ
+    IN      A,(07EH)
+    CP      0B0H
+    JNZ     init_vdp
+
     DI
     ; Register: モード制御 #1
     LD A, $86
