@@ -8,7 +8,7 @@ org $0000
     CALL load_palette
 
     DI
-    ; 書き込みアドレス $2000
+    ; 書き込みアドレス $22D4 (ここからHELLO,WORLD!を書けばだいたい画面真ん中)
     LD A, $D4
     OUT ($BF), A
     LD A, $62
