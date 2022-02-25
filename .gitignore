@@ -1,0 +1,9 @@
+*.rom
+*.o
+*.bin
+*.vram
+*.cram
+*.rom
+*.gg
+bmp2chr
+
