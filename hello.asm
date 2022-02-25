@@ -2,7 +2,7 @@ org $0000
 
 .init
     IM 1
-    LD SP, $E000
+    LD SP, $DFF0
     CALL init_vdp
     CALL load_pattern
     CALL load_palette
